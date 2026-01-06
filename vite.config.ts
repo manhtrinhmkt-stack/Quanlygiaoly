@@ -6,11 +6,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // ✅ BASE PHẢI Ở ĐÂY
     base: '/quanlygiaoly/',
-
     plugins: [react()],
-
     server: {
       port: 3000,
       host: '0.0.0.0',
